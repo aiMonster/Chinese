@@ -1,0 +1,189 @@
+pre{
+	color: #FF9466;
+	font-size: 20px;
+}
+
+#fin_res_2{
+	font-size: 23px;
+}
+
+
+
+#submenu{
+	position: relative;
+	/*visibility: hidden;*/
+	border: 1px solid white;
+	top: 5em;
+	left: 53em;
+	width: 28%;
+}
+.subBut{
+	width: 49%;
+	height: 3em;
+}
+#s1{
+	background-color: lightgray;
+}
+
+#s2{
+	background-color: black;
+	color: white;
+}
+
+#result_2{
+	/*border: 1px solid yellow;*/
+	padding-top: 0;
+	text-align: center;
+}
+
+
+
+
+#result{
+	color: #E88852;
+	margin-top: 10%;
+	text-align: center;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 20px;
+	/*border: 1px solid gray;*/
+
+}
+
+#res{
+	font-size: 24px; 
+	color: #FF4D21;
+}
+
+
+
+
+.nsdForm{
+	/*border: 1px solid blue;*/
+	width: 60%;
+	padding: 20%;
+	padding-top: 0;
+	padding-bottom: 5%;
+	
+	
+}
+/*
+#formik{
+	border: 1px solid yellow;
+	
+}
+*/
+
+
+input{
+	color: white;
+	background-color: rgba(200, 200, 200, 0.2);
+	border-color: rgba(20, 20, 20, 0.0);
+	width: 25%;
+	height: 20px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.nsdButton{
+	color: black;
+	width: 50%;
+	height: auto;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+
+
+.nsdButton {
+  background: #73445d;
+  background-image: -webkit-linear-gradient(top, #73445d, #470c2f);
+  background-image: -moz-linear-gradient(top, #73445d, #470c2f);
+  background-image: -ms-linear-gradient(top, #73445d, #470c2f);
+  background-image: -o-linear-gradient(top, #73445d, #470c2f);
+  background-image: linear-gradient(to bottom, #73445d, #470c2f);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.nsdButton:hover {
+  background: #99a8b0;
+  background-image: -webkit-linear-gradient(top, #99a8b0, #747c80);
+  background-image: -moz-linear-gradient(top, #99a8b0, #747c80);
+  background-image: -ms-linear-gradient(top, #99a8b0, #747c80);
+  background-image: -o-linear-gradient(top, #99a8b0, #747c80);
+  background-image: linear-gradient(to bottom, #99a8b0, #747c80);
+  text-decoration: none;
+}
+
+
+
+#check{
+	background-color: lightblue;
+}
+
+label{
+	color: white;
+	font-size: 20px;
+}
+
+
+.description{
+	color: white; 
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+}
+
+#only_nsd, #nsd_full{
+	z-index: 1;
+	position: relative;
+	/*visibility: hidden;*/
+	margin-bottom: 40px;
+	border: 1px solid white;
+	top: 5em;
+	left: 53em;
+	width: 28%;
+}
+
+#error, #error_2{
+	font-size: 18px;
+}
+
+
+#only_nsd{
+	display: none;
+
+}
+
+
+
+
+.myButton{
+	color: black;
+	width: auto;
+	height: 20px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+
+
+#delete{
+	background-color: lightpink;
+}
+
+#create{
+	
+	background-color: lightgreen;
+}
+
+#check{
+	background-color: lightblue;
+}

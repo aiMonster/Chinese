@@ -1,0 +1,28 @@
+#story{
+	position: relative;
+	left: 58%;
+	top: 10%;
+	width: 40%;
+	height: auto;
+	text-align: center;
+	
+
+
+}
+
+#story h1{
+	color: #E4DECB;
+	font-family: "Amatic SC";
+	font-size: 4em;
+}
+
+#story p{
+	color: #E4C0B4;
+	padding: 1em;
+	font-family: "Shadows Into Light";
+	font-size: 2em;
+}
+
+#decide{
+	color: #966D7C;
+}

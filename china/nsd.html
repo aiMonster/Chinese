@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chinese Theorem</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/nav_back.css">
+	<link rel="stylesheet" type="text/css" href="style/nsd.css">
+	<link href="https://fonts.googleapis.com/css?family=Sirin+Stencil" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+	<script src="script/engine.js"></script>
+	<script src="script/chMenu.js"></script>
+	<script src="script/nsd.js"></script>
+</head>
+<body>
+	<nav>
+		<div id="menu">
+			<img src="images/letter.png" height="65px" style="float: left; position: relative; top: -15px;">
+			<a href="home.html">Home</a>
+			<a href="nsd.html">Decide</a>
+			<a href="about.html">About</a>
+			<img src="images/letter.png" height="65x" style="float: right; position: relative; top: -15px;">
+		</div>
+	</nav>
+
+
+
+
+	<!-- Everything before, is for menu -->
+
+
+
+
+	<div id="submenu">
+		<button class="subBut" id="s1" style="" onclick="toNsd()">Find only NSD</button>
+		<button class="subBut" id="s2" style="position: absolute; right: 0;" onclick="toCh()">Decide Chinese theorem</button>
+	</div>
+
+
+
+	<div id="nsd_full">
+		<p class="description">Enter your numbers here:</p>
+
+		<div class="nsdForm">
+			<form id="formik_2">
+				
+				<label>X ≡</label>
+				<input type="text" class="numbers" name="number" placeholder="b1" />
+				<label>mod</label>
+				<input type="text" class="numbers" name="number" placeholder="p1" />
+
+
+				<hr>
+				<label>X ≡</label>
+				<input type="text" class="numbers" name="number" placeholder="b2" />
+				<label>mod</label>
+				<input type="text" class="numbers" name="number" placeholder="p2" />
+
+			</form>
+
+
+			<p id="error_2"></p>
+
+			<button class="myButton" id="create" onclick="create()">Add row</button>
+			<button class="myButton" id="check" onclick="finder()">Decide</button>
+			<button class="myButton" id="delete" onclick="del()">Delete row</button>
+
+		</div>
+
+		<hr style="width: 80%">
+		
+		<div id="result_2">
+
+			
+		</div>
+
+		<p style="text-align: center;" id="fin_res_2"></p>
+	</div>
+
+
+
+
+	<div id="only_nsd">
+		<p class="description">Enter your numbers here:</p>
+
+		<div class="nsdForm">
+			<form id="formik">
+				<label>a:</label>
+				<input type="text" id="p" class="numbers" name="number" />
+				
+				<label>b:</label>
+				<input type="text" id="q" class="numbers" name="number" />
+				
+			</form>
+
+
+			<p id="error"></p>
+			<button class="nsdButton" onclick="onlyNsd()">Decide</button>
+		</div>
+
+		<hr style="width: 80%">
+
+		<div id="result">
+			<p id="res"></p>
+			<p id="expression"></p>
+			<p id="nsd_nsd"></p>
+			<p id="nsd_p"></p>
+			<p id="nsd_q"></p>
+			<p id="fin_res"></p>
+		</div>
+	</div>
+</body>
+</html>
